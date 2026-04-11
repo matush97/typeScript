@@ -12,7 +12,7 @@
 // Explanation: The sum of 2 and 7 is 9. Therefore, index1 = 1, index2 = 2. We return [1, 2].
 
 // Two Pointers
-function twoSum(numbers: number[], target: number): number[] {
+function twoSum2(numbers: number[], target: number): number[] {
     let left = 0;
     let right = numbers.length - 1;
 
@@ -31,4 +31,4 @@ function twoSum(numbers: number[], target: number): number[] {
     return [];
 }
 
-console.log(twoSum([2, 3, 4], 6))
+console.log(twoSum2([2, 3, 4], 6))
