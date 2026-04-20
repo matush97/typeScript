@@ -1,0 +1,36 @@
+// 78. Subsets
+// Given an integer array nums of unique elements, return all possible subsets (the power set).
+//
+// The solution set must not contain duplicate subsets. Return the solution in any order.
+//
+//
+//
+//     Example 1:
+//
+// Input: nums = [1,2,3]
+// Output: [[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]
+// Example 2:
+//
+// Input: nums = [0]
+// Output: [[],[0]]
+// https://www.youtube.com/watch?v=UP3dOYJa05s
+
+function subsets(nums: number[]): number[][] {
+    const result: number[][] = [];
+
+    function backtrack(start: number, current: number[]) {
+        result.push([...current]);
+
+        for (let i = start; i < nums.length; i++) {
+            current.push(nums[i])
+            backtrack(i + 1, current);
+            current.pop();
+        }
+    }
+
+    backtrack(0, []);
+
+    return result;
+}
+
+console.log(subsets([1, 2, 3]))
