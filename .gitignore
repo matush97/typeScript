@@ -9,3 +9,7 @@ yarn-error.log*
 .pnp.js
 
 .vscode/*
+/.idea/modules.xml
+/package-lock.json
+/.idea/typeScript.iml
+/.idea/vcs.xml

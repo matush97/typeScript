@@ -25,7 +25,7 @@
 //     }
 // }
 
-import TreeNode from "./TreeNode";
+import TreeNode from "../TreeNode";
 
 function inorderTraversal(root: TreeNode | null): number[] {
     const result: number[] = [];

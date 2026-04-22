@@ -19,7 +19,7 @@
 
 // https://www.geeksforgeeks.org/dsa/preorder-traversal-of-binary-tree/
 
-import TreeNode from "./TreeNode";
+import TreeNode from "../TreeNode";
 
 function preorderTraversal(root: TreeNode | null): number[] {
     const result: number[] = [];

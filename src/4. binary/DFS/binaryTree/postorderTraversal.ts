@@ -17,7 +17,7 @@
 // Input: root = [1]
 // Output: [1]
 
-import TreeNode from "./TreeNode";
+import TreeNode from "../TreeNode";
 
 function postorderTraversal(root: TreeNode | null): number[] {
     const result: number[] = [];
