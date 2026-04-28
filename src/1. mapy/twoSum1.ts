@@ -48,7 +48,7 @@ function twoSum1_1(nums: number[], target: number): number[] {
 
 }
 
-const nums = [3, 2, 4]
+const  nums = [3, 2, 4]
 const target = 6;
 
 console.log(twoSum1_1(nums, target))

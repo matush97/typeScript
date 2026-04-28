@@ -18,6 +18,9 @@
 // Explanation: The answer is "wke", with the length of 3.
 // Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
 
+// Time: O(n)
+// Space: O(n)
+
 function lengthOfLongestSubstring(s: string): number {
     let longest: number = 0;
     const set = new Set<string>();
