@@ -18,6 +18,9 @@
 
 // https://www.youtube.com/watch?v=WvRC2TFjLSE
 
+// Time: O(n)
+// Space: 0(n)
+
 function characterReplacement(s: string, k: number): number {
     let left: number = 0;
     let output: number = 0;
